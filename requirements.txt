@@ -4,4 +4,7 @@ numpy
 certifi  # Fournit un bundle de certificats SSL reconnus (CA bundle). Permet à des bibliothèques comme requests d’établir 
         # des connexions HTTPS sécurisées, surtout en cas de problème avec les certificats systèmes.
 
+pymongo[srv]
+
+
 # -e .    #  Installe le projet local comme un package editable. Les modifications dans le code sont directement prises en compte sans devoir réinstaller le package.
