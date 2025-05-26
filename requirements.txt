@@ -10,5 +10,7 @@ pymongo[srv]
 scikit-learn
 dill
 pyaml
+fastapi
+uvicorn
 
 # -e .    #  Installe le projet local comme un package editable. Les modifications dans le code sont directement prises en compte sans devoir réinstaller le package.

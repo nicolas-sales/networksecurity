@@ -26,8 +26,9 @@ from sklearn.ensemble import (
 import mlflow
 from urllib.parse import urlparse
 
+# DAGSHUB TRACKING
 import dagshub
-#dagshub.init(repo_owner='nicolas.sales77', repo_name='networksecurity', mlflow=True)
+dagshub.init(repo_owner='nicolas.sales77', repo_name='networksecurity', mlflow=True)
 
 #os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/nicolas.sales77/networksecurity.mlflow"
 #os.environ["MLFLOW_TRACKING_USERNAME"]="nicolas.sales77"
@@ -49,8 +50,9 @@ class ModelTrainer:
         #mlflow.set_registry_uri("https://dagshub.com/nicolas.sales77/networksecurity.mlflow")
         #tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
-        mlflow.set_tracking_uri("file:///C:/Users/nico_/Desktop/MLOPS/NetworkSecurity/mlruns")
-        mlflow.set_experiment("local_model_test")
+        # MLFOW UI TRACKING
+        #mlflow.set_tracking_uri("file:///C:/Users/nico_/Desktop/MLOPS/NetworkSecurity/mlruns")
+        #mlflow.set_experiment("local_model_test")
 
         with mlflow.start_run():
             f1_score=classificationmetric.f1_score
