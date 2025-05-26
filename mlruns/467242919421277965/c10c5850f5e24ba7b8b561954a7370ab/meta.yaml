@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/nico_/Desktop/MLOPS/NetworkSecurity/mlruns/467242919421277965/c10c5850f5e24ba7b8b561954a7370ab/artifacts
+end_time: 1748255193425
+entry_point_name: ''
+experiment_id: '467242919421277965'
+lifecycle_stage: active
+run_id: c10c5850f5e24ba7b8b561954a7370ab
+run_name: fun-quail-42
+run_uuid: c10c5850f5e24ba7b8b561954a7370ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748255189341
+status: 3
+tags: []
+user_id: nico_
