@@ -1,2 +1,2 @@
-### Network security project for phising data
+### Network security project for phishing data
 
